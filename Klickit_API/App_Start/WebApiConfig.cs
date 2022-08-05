@@ -17,7 +17,6 @@ namespace Klickit_API
                             Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 
             // Web API configuration and services
-
             // Web API routes
             config.MapHttpAttributeRoutes();
 

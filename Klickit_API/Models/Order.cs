@@ -8,12 +8,16 @@ namespace Klickit_API.Models
 
     public partial class Order
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Order()
+        {
+            Invoices = new HashSet<Invoice>();
+        }
+
         [Key]
         public long Order_ID { get; set; }
 
         public long User_ID { get; set; }
-
-        public long Prod_ID { get; set; }
 
         [Required]
         [StringLength(250)]
@@ -26,7 +30,11 @@ namespace Klickit_API.Models
         [Required]
         [StringLength(250)]
         public string Status { get; set; }
-        public virtual Product Product { get; set; }
+
+        public double Total { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Invoice> Invoices { get; set; }
 
         public virtual User User { get; set; }
     }

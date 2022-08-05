@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>http://localhost:1996</_PublishTargetUrl>
-    <History>True|2022-07-20T01:10:50.8375022Z;True|2022-07-20T00:32:39.2064510+02:00;True|2022-07-20T00:05:49.2594465+02:00;True|2022-07-19T23:56:02.7609209+02:00;True|2022-07-19T22:21:52.6878763+02:00;</History>
+    <History>True|2022-08-04T16:25:42.8005097Z;True|2022-08-04T15:11:56.7595916+02:00;True|2022-07-20T03:10:50.8375022+02:00;True|2022-07-20T00:32:39.2064510+02:00;True|2022-07-20T00:05:49.2594465+02:00;True|2022-07-19T23:56:02.7609209+02:00;True|2022-07-19T22:21:52.6878763+02:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/HelpPage/HelpPage.css">
@@ -84,10 +84,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/02/2015 11:32:26</publishTime>
     </File>
     <File Include="bin/Klickit_API.dll">
-      <publishTime>07/20/2022 03:10:48</publishTime>
+      <publishTime>08/04/2022 18:25:31</publishTime>
     </File>
     <File Include="bin/Klickit_API.pdb">
-      <publishTime>07/20/2022 03:10:48</publishTime>
+      <publishTime>08/04/2022 18:25:31</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
@@ -369,7 +369,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/19/2022 21:17:05</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/19/2022 22:21:48</publishTime>
+      <publishTime>08/04/2022 18:25:38</publishTime>
     </File>
   </ItemGroup>
 </Project>
